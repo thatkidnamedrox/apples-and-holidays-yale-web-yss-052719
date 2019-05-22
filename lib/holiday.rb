@@ -67,6 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
     #season = key.to_s.split(" ").collect { |w| w.capitalize }
     #puts season
     season_array = key.to_s.split(" ").collect { |w| w.capitalize }
+    season = season_array.join(" ")
     puts season_array.inspect
   end
 end
