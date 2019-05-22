@@ -48,8 +48,9 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
+  result = []
   holiday_supplies[:winter].each do |holiday, supplies|
-    puts supplies.inspect
+    result+=supplies
   end
 end
 
