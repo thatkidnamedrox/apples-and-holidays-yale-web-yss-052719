@@ -143,7 +143,7 @@ TEXT
   # Question 7
   # Write a method to collect all holidays with BBQ
   describe "#all_holidays_with_bbq" do
-    x it "should return :fourth_of_july and :memorial_day" do
+    it "should return :fourth_of_july and :memorial_day" do
       expect(all_holidays_with_bbq(holiday_supplies)).to eq([:fourth_of_july, :memorial_day])
     end
   end
