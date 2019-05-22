@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
     season.each do |holiday|
       holiday_array = holiday.to_s.split(" ").collect { |w| w.capitalize }
       holiday_string = holiday_array.join(" ")
-    
+
       supplies = holiday_hash[key][value].split(", ")
       puts "\t#{holiday}: #{supplies}"
     end
