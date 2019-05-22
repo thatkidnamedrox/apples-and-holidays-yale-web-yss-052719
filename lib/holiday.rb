@@ -70,13 +70,14 @@ def all_supplies_in_holidays(holiday_hash)
     string = words.join(" ")
     puts "#{string}:"
 
+    holiday_hash[season].each do |holiday, supplies|
     # value.each do |v|
     #    holiday_array = value.to_s.split(" ").collect { |w| w.capitalize }
     #    holiday_string = holiday_array.join(" ")
     #
     #   supplies = holiday_hash[key][value].split(", ")
     #   puts "\t#{holiday}: #{supplies}"
-    # end
+    end
   end
 end
 
