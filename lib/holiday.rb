@@ -93,9 +93,6 @@ def all_holidays_with_bbq(holiday_hash)
         holiday_names << holiday_name
       end
     end
-    # if holiday_hash[season][holiday].include?("BBQ")
-    #   holiday_names << holiday
-    # end
   end
 
   holiday_names
