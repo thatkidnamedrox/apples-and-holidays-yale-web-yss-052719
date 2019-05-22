@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
     #
     #   supplies = holiday_hash[key][value].split(", ")
     #   puts "\t#{holiday}: #{supplies}"
-    end
+    # end
   end
 end
 
